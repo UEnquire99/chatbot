@@ -150,10 +150,7 @@ IMPORT_EXPORT_USE_TRANSACTIONS = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = 'static_root'
-
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
 django_heroku.settings(locals())
 
 # Default primary key field type
